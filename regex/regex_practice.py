@@ -12,7 +12,13 @@ def consonant_regex_finder():
     return consonant_regex.findall(text)
 
 def vowel_normal_finder():
-    return [char for char in text if char in vowels]
+    result = []
+
+    for char in text:
+        if char in vowels:
+            result.append(char)
+
+    return result
 
 print(vowel_regex_finder())
 print(vowel_normal_finder())
