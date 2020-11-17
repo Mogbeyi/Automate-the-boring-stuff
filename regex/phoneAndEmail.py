@@ -21,8 +21,18 @@ text = clipboard.paste()
 matches = []
 
 for groups in phoneRegex.findall(text):
-    print(groups)
     phoneNum = '-'.join([groups[1], groups[3], groups[5]])
     if groups[8] != '':
         phoneNum += ' x' + groups[8]
     matches.append(phoneNum)
+
+for groups in emailRegex.findall(text):
+    matches.append(groups[0])
+
+if len(matches) > 0:
+    finalMatch = '\n'.join(matches)
+    clipboard.copy(finalMatch)
+    print('Copied to clipboard:')
+    print(finalMatch)
+else:
+    print("No phone numbers or email adresses found.")
