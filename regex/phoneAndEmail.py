@@ -17,22 +17,37 @@ emailRegex = re.compile(r'''(
 (\.[a-zA-Z]{2,4})           # dot-something
 )''', re.VERBOSE)
 
-text = clipboard.paste()
-matches = []
+def get_phone_numbers(text):
+    phone_number_matches = []
 
-for groups in phoneRegex.findall(text):
-    phoneNum = '-'.join([groups[1], groups[3], groups[5]])
-    if groups[8] != '':
-        phoneNum += ' x' + groups[8]
-    matches.append(phoneNum)
+    for groups in phoneRegex.findall(text):
+        phoneNum = '-'.join([groups[1], groups[3], groups[5]])
+        if groups[8] != '':
+            phoneNum += ' x' + groups[8]
+        phone_number_matches.append(phoneNum)
 
-for groups in emailRegex.findall(text):
-    matches.append(groups[0])
+    return phone_number_matches 
 
-if len(matches) > 0:
-    finalMatch = '\n'.join(matches)
-    clipboard.copy(finalMatch)
-    print('Copied to clipboard:')
-    print(finalMatch)
-else:
-    print("No phone numbers or email adresses found.")
+def get_email_adresses(text):
+    email_matches = []
+
+    for groups in emailRegex.findall(text):
+        email_matches.append(groups[0])
+
+    return email_matches
+
+def main():
+    text = clipboard.paste()
+    phone_numbers = get_phone_numbers(text)
+    emails = get_email_adresses(text)
+    numbers_and_emails = phone_numbers + emails
+
+    if len(numbers_and_emails) > 0:
+        finalMatch = '\n'.join(numbers_and_emails)
+        clipboard.copy(finalMatch)
+        print('Copied to clipboard:')
+        print(finalMatch)
+    else:
+        print("No phone numbers or email adresses found.")
+
+main()
