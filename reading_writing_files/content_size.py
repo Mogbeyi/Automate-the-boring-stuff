@@ -3,6 +3,9 @@ import os
 #prints the total content of an entire folder on your local PC
 
 def get_folder_size(path):
+    if not os.path.isdir(path):
+        return "Invalid directory path"
+
     dir_list = os.listdir(path)
     total_size = 0
 
@@ -13,7 +16,7 @@ def get_folder_size(path):
     return total_size
 
 def main():
-    path = '/Users/emmywonder/videos' 
+    path = '/Users/emmywonder/videos/' 
     print(get_folder_size(path))
 
 main()
