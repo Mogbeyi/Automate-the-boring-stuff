@@ -16,7 +16,7 @@ def get_folder_size(path):
     return total_size
 
 def main():
-    path = '/Users/emmywonder/videos/' 
+    path = input("Enter the path to the folder to get its size: ") 
     print(get_folder_size(path))
 
 main()
