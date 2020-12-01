@@ -17,4 +17,3 @@ def vowel_normal_finder():
 print(vowel_regex_finder())
 print(vowel_normal_finder())
 print(consonant_regex_finder())
-
