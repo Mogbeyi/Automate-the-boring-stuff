@@ -1,13 +1,13 @@
 from capitals import capitals
 import random
 
-NUMBER_OF_FILES = 3
+number_of_files = 3
 
 def generate_random_quizfiles():
-    for quiz_num in range(NUMBER_OF_FILES): 
+    for quiz_num in range(number_of_files): 
         quiz_file = open(f'capitalsquiz{quiz_num + 1}.txt', 'w') 
         answer_key_file = open(f'capitalsquiz_answers{quiz_num + 1}.txt', 'w') 
-        quiz_file.write('Name:\n\nDate:\n\nPeriod:\n\n')
+        quiz_file.write('name:\n\ndate:\n\nperiod:\n\n')
         quiz_file.write((' ' * 20) + f'state capitals quiz (form {quiz_num + 1})')
         quiz_file.write('\n\n')
 
@@ -37,20 +37,16 @@ def generate_questions(states, quiz_file, answer_file):
 
 
 def write_to_quiz_file(quiz_file, question_num, states, answer_options):
-    #Write the question and the answer question to the quiz file.
-    quiz_file.write(f'{question_num + 1}. What is the capital of {states[question_num]}?\n')
+    quiz_file.write(f'{question_num + 1}. what is the capital of {states[question_num]}?\n')
     for i in range(4):
-        quiz_file.write(f"     {'ABCD'[i]}. {answer_options[i]}\n")
+        quiz_file.write(f"     {'abcd'[i]}. {answer_options[i]}\n")
     quiz_file.write('\n')
 
 def write_to_answer_file(answer_file, question_num, answer_options, correct_answer):
-    answer_file.write(f"{question_num + 1}.{'ABCD'[answer_options.index(correct_answer)]}")
+    answer_file.write(f"{question_num + 1}.{'abcd'[answer_options.index(correct_answer)]}")
     answer_file.write(' ')
 
 def main():
     generate_random_quizfiles()
 
 main()
-
-
-
