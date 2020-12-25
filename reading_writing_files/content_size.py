@@ -1,6 +1,7 @@
 import os
 
-#prints the total content of an entire folder on your local PC
+# prints the total content of an entire folder on your local PC
+
 
 def get_folder_size(path):
     if not os.path.isdir(path):
@@ -15,9 +16,10 @@ def get_folder_size(path):
 
     return total_size
 
+
 def main():
-    path = input("Enter the path to the folder to get its size: ") 
+    path = input("Enter the path to the folder to get its size: ")
     print(get_folder_size(path))
 
-main()
 
+main()

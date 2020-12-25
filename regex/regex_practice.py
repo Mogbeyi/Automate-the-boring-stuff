@@ -1,18 +1,22 @@
 import re
 
-text = 'Robocop eats baby food. BABY FOOD.'
-vowels = 'aeiouAEIOU'
+text = "Robocop eats baby food. BABY FOOD."
+vowels = "aeiouAEIOU"
+
 
 def vowel_regex_finder():
-    vowelRegex = re.compile(r'[aeiouAEIOU]')
+    vowelRegex = re.compile(r"[aeiouAEIOU]")
     return vowelRegex.findall(text)
 
+
 def consonant_regex_finder():
-    consonant_regex = re.compile(r'[^aeiouAEIOU]')
+    consonant_regex = re.compile(r"[^aeiouAEIOU]")
     return consonant_regex.findall(text)
+
 
 def vowel_normal_finder():
     return [char for char in text if char in vowels]
+
 
 print(vowel_regex_finder())
 print(vowel_normal_finder())
