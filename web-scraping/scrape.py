@@ -13,7 +13,7 @@ soup = bs(r.content, "html.parser")
 #    print(header.text)
 #
 # print(links['href'])
-##webbrowser.open(links['href'])
+#webbrowser.open(links['href'])
 #
 # headers = soup.find_all('h2', string=re.compile("(H|h)eader"))
 # print(headers)
