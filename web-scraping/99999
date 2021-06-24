@@ -1,0 +1,152 @@
+: 1623843196:0;ls
+: 1623843201:0;cat gutenberg.
+: 1623843207:0;cat gutenberg.py
+: 1623843214:0;vim gutenberg.py
+: 1623843230:0;ls
+: 1623843231:0;clear
+: 1623843231:0;ls
+: 1623843235:0;cat gutenberg.txt
+: 1623843241:0;vim mapit.py
+: 1623843265:0;ls
+: 1623843268:0;git diff
+: 1623843272:0;ls
+: 1623843278:0;cat scrape.py
+: 1623843284:0;vim scrape.py
+: 1623843539:0;python scrape.py
+: 1623843632:0;ls
+: 1623843636:0;vim scrape.py
+: 1623843691:0;python
+: 1623843696:0;python scrape.py
+: 1623843708:0;vim scrape.py
+: 1623843721:0;clear
+: 1623843723:0;git diff
+: 1623843728:0;git status -s
+: 1623843731:0;clear
+: 1623854160:0;ls
+: 1623854190:0;vim feeling-lucky.py
+: 1623880435:0;ls
+: 1623880436:0;cleaer
+: 1623880437:0;ls
+: 1623880439:0;clear
+: 1623880439:0;ls
+: 1623880444:0;vim test.js
+: 1623880492:0;node test.js
+: 1623880497:0;vim test.js
+: 1623881071:0;node test.js
+: 1623881258:0;exit
+: 1623881991:0;node test.js
+: 1623881998:0;vim test.js
+: 1623882239:0;node test.js
+: 1623882247:0;exit
+: 1623882264:0;node test.js
+: 1623882276:0;exit
+: 1623882281:0;node test.js
+: 1623882287:0;vim test.js
+: 1623882651:0;node test.js
+: 1623882654:0;vim test.js
+: 1623882684:0;node test.js
+: 1623882697:0;vim test.js
+: 1623882714:0;node test.js
+: 1623882776:0;vim test.js
+: 1623883552:0;node test.js
+: 1623883556:0;exit
+: 1623883740:0;node test.js
+: 1623883743:0;vim test.js
+: 1623883843:0;node test.js
+: 1623883853:0;vim test.js
+: 1623883895:0;node test.js
+: 1623883900:0;vim test.js
+: 1623884492:0;cd ../..
+: 1624302288:0;ls
+: 1624302288:0;clear
+: 1624302289:0;ls
+: 1624302326:0;vim feeling-lucky.py
+: 1624302520:0;ls
+: 1624302523:0;cat mapit.py
+: 1624302538:0;vim feeling-lucky.py
+: 1624305317:0;docker
+: 1624305520:0;docker run -d -p 80:80 docker/getting-started\
+
+: 1624306194:0;docker
+: 1624306206:0;clear
+: 1624306209:0;lad
+: 1624306210:0;ls
+: 1624306241:0;docker run hello-world
+: 1624306411:0;clear
+: 1624306412:0;ls
+: 1624306849:0;docker
+: 1624306853:0;clear
+: 1624356021:0;ls
+: 1624356025:0;cd ../..
+: 1624549198:0;ls
+: 1624549199:0;clear
+: 1624549206:0;ls
+: 1624549214:0;vim open-all-links.py
+: 1624549224:0;vim feeling-lucky.py
+: 1624550285:0;python feeling-lucky.py
+: 1624550293:0;ls
+: 1624550299:0;vim gutenberg.
+: 1624550307:0;vim gutenberg.py
+: 1624550312:0;python gutenberg.py
+: 1624550358:0;pip -v
+: 1624550375:0;pip install requests
+: 1624550395:0;pip3 -v
+: 1624550404:0;pip3 --version
+: 1624550411:0;pip install requests
+: 1624550413:0;clear
+: 1624550430:0;sudo pip install requests
+: 1624550448:0;ls
+: 1624550452:0;python gutenberg.py 
+: 1624550491:0;sudo pip3 install requests 
+: 1624550509:0;python gutenberg.py
+: 1624550514:0;clear
+: 1624550515:0;ls
+: 1624550522:0;cat feeling-lucky.py
+: 1624550525:0;python feeling-lucky.py
+: 1624550532:0;cat gutenberg.py
+: 1624550539:0;vim feeling-lucky.py
+: 1624550549:0;clear
+: 1624550549:0;ls
+: 1624550552:0;python feeling-lucky.py
+: 1624550643:0;pip install beautifulsoup4
+: 1624550655:0;pip3 install beautifulsoup4
+: 1624550663:0;ls
+: 1624550666:0;python feeling-lucky.py
+: 1624550684:0;ls
+: 1624550686:0;vim feeling-lucky.py
+: 1624550697:0;python feeling-lucky.py
+: 1624550713:0;vim feeling-lucky.py
+: 1624551227:0;python feeling-lucky.py hello
+: 1624551236:0;vim feeling-lucky.py
+: 1624551288:0;python feeling-lucky.py hello
+: 1624567104:0;vim feeling-lucky.py
+: 1624567153:0;vim feeling-lucky.py naruto
+: 1624567257:0;python feeling-lucky.py naruto
+: 1624567277:0;ls
+: 1624567280:0;vim feeling-lucky.py
+: 1624567302:0;python feeling-lucky.py naruto
+: 1624574854:0;clear
+: 1624574855:0;ls
+: 1624574858:0;vim feeling-lucky.py
+: 1624574871:0;python feeling-lucky.py naruto
+: 1624574884:0;ls
+: 1624574938:0;clear
+: 1624574991:0;ls
+: 1624574993:0;vim feeling-lucky.py
+: 1624575058:0;python feeling-lucky.py
+: 1624575106:0;ls
+: 1624575108:0;vim feeling-lucky.py
+: 1624575124:0;python feeling-lucky.py
+: 1624575163:0;clear
+: 1624575163:0;ls
+: 1624575170:0;python feeling-lucky.py naruto
+: 1624575608:0;clear
+: 1624575611:0;vim feeling-lucky.py
+: 1624575628:0;python feeling-lucky.py naruto
+: 1624575919:0;vim feeling-lucky.py
+: 1624575940:0;python feeling-lucky.py naruto
+: 1624576027:0;vim feeling-lucky.py
+: 1624576106:0;python feeling-lucky.py naruto
+: 1624576112:0;clear
+: 1624576112:0;ls
+: 1624576120:0;git add .
